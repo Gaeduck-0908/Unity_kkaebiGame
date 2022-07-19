@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0cf369f66711a8c4fa29cf9e15438ddd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - EquipmentPro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e6aa9e0169641ce49b650fc40ab66d50, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

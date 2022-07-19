@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cbb1686b75b7f8e47af4d628b12cf0e6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FutilePro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 843dc9378073f344790e8056df0f9dc0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
