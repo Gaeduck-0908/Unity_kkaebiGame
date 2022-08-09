@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class sp_atk : MonoBehaviour
 {
-    IEnumerator atk()
+    IEnumerator Atk()
     {
         yield return new WaitForSeconds(1.5f);
     }
@@ -14,11 +14,17 @@ public class sp_atk : MonoBehaviour
         switch(col.tag)
         {
             case "Enemy":
-                StartCoroutine("atk");
+                if (this.gameObject.activeInHierarchy)
+                {
+                    StartCoroutine("Atk");
+                }
                 Enemy.Instance.hp -= 100;
                 break;
             case "Boss":
-                StartCoroutine("atk");
+                if (this.gameObject.activeInHierarchy)
+                {
+                    StartCoroutine("Atk");
+                }
                 Boss.Instance.hp -= 200;
                 break;
         }

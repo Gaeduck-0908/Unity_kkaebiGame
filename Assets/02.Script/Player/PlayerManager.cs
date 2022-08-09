@@ -385,6 +385,8 @@ public class PlayerManager : Singleton<PlayerManager>
             is_atk = true;
             Player_god = true;
             yield return new WaitForSeconds(1.5f);
+            this.gameObject.GetComponent<AudioSource>().clip = atk_sound;
+            this.gameObject.GetComponent<AudioSource>().Play();
             atk_2.SetActive(false);
             is_atk = false;
             Player_god = false;
