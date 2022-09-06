@@ -11,6 +11,9 @@ public class PlayerManager : Singleton<PlayerManager>
     // public 싱글톤 공유 변수,함수
     // private 내부 변수 함수
 
+    [Header ("animation")]
+    [Tooltip ("시간관계상 setactive로 관리 TODO :: animation 교체 예정")]
+
     [SerializeField]
     public GameObject idle; //서있는 상태
     [SerializeField]
@@ -31,6 +34,9 @@ public class PlayerManager : Singleton<PlayerManager>
     [SerializeField]
     private Text cool_text; //스킬 쿨타임 텍스트
 
+
+    [Header ("sound")]
+
     [SerializeField]
     private AudioClip atk_sound; //공격 소리
 
@@ -45,6 +51,7 @@ public class PlayerManager : Singleton<PlayerManager>
 
     Rigidbody2D rig; //Rigidbody2D 컴포넌트
 
+    [Header ("value")]
     public int level; //플레이어 레벨
     public float exp; //플레이어 경험치
 
@@ -77,6 +84,8 @@ public class PlayerManager : Singleton<PlayerManager>
     private bool cooldown = true; //플레이어 공격 쿨타임 여부
 
     private bool is_living; //플레이어 생존 여부
+
+    [Header ("Enemy")]
 
     [SerializeField]
     private GameObject[] Enemy_list;  //적군 리스트
